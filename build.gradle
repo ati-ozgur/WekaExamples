@@ -25,3 +25,10 @@ task loadArffAndTrainModelExample1(type:JavaExec) {
   main = "wekaExamples.loadArffAndTrainModelExample1"
   classpath = sourceSets.main.runtimeClasspath
 }
+
+task loadModelAndTestExampleInstance1(type:JavaExec) {
+  main = "wekaExamples.loadModelAndTestExampleInstance1"
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+
